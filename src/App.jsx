@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="container">
+      <div className="title">Pokedex</div>
       <div className="goods">
         {wildPokemon.map((pokemon, i) => {
           return <Pokemon pokemon={pokemon} key={i} showDetal={showDetal} />;
