@@ -17,6 +17,8 @@ function App() {
     });
   };
 
+  console.log(1);
+
   const showDetal = (data) => {
     setDetails(data);
   };

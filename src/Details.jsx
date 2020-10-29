@@ -2,8 +2,6 @@ import React from "react";
 
 const Details = ({ characters, id, weight, name, types }) => {
   const newId = String(`00${id}`).slice(-3);
-  console.log(types);
-  console.log(1);
   const allCharacters = characters.concat(weight);
   const describeOpprtunity = ["Attack", "Defense", "HP", "SP Attack", "SP Defence", "Speed", "Weight"];
   return (
